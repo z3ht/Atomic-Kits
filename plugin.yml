@@ -1,0 +1,21 @@
+main: me.zinno.kits.Main
+version: 1.0.0
+name: AtomicKits
+author: Zinno
+
+commands:
+  kit:
+    description: Retrieve items from kit
+    usage: /kit <name> or /kit
+  newkit:
+    description: Create a kit
+    usage: /newkit <name>
+  neweffect:
+    description: Update kit effects
+    usage: /neweffect <name>
+  delkit:
+    description: Delete a kit
+    usage: /delkit <name>
+  trash:
+    description: Remove trash
+    usage: /trash
